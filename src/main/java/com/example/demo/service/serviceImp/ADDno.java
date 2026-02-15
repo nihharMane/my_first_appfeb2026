@@ -30,7 +30,7 @@ public class ADDno implements AddService{
 
 
     @Override
-    public int add(int val1,int val2) {
+    public int add(int val1,int val2){
 
         log.info("ADDno serverPort={}", serverPort);
         return val1 + val2 +random.nextInt(100);
