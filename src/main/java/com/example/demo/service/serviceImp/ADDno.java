@@ -15,7 +15,7 @@ import java.util.Random;
 
 @Service
 @Slf4j
-public class ADDno implements AddService {
+public class ADDno implements AddService{
     // Lombok's @Slf4j annotation creates a 'log' field automatically
     //Read server.port from application.properties and assign to serverPort variable
      @Value("${server.port}")
